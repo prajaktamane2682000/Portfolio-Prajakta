@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F3F3F3;
+    font-family: sans-serif;
+
+}
+
+.main-page {
+    margin: auto;
+    width: 90vw;
+    height: auto;
+
+    padding: 10px 20px;
+}
+
+.header {
+    width: auto;
+    height: 6rem;
+    margin-bottom: 20px;
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.me {
+    width: auto;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.me a {
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-bar {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid black;
+    padding: 5px 10px;
+    height: 25px;
+    text-align: center;
+
+}
+
+.main {
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.about-profile {
+    width: 500px;
+    height: auto;
+}
+
+.about-profile h1 {
+    font-size: 7rem;
+    margin: 0px;
+}
+
+.about-profile h5 {
+    margin: 0;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.about-profile p {
+    width: 400px;
+    text-wrap: wrap;
+    margin-bottom: 1px;
+
+}
+
+.profile-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 400px;
+    height: auto;
+}
+
+.profile-links div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+
+    color: black;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.profile-links div a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.resume {
+    background-color: #EBA102;
+}
+
+.project {
+    background-color: #FC3A25;
+}
+
+.contact {
+    background-color: #80D8DA;
+}
+
+footer {
+    display: flex;
+    width: auto;
+
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer h5 {
+    font-size: 16px;
+    font-weight: 700;
+
+    margin-bottom: 1px;
+
+}
+
+.my-work {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid grey;
+    margin-top: 70px;
+
+}
+
+.my-work h2 {
+    margin: 0;
+}
+
+.designation-details {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-top: 10px;
+    width: 900px;
+}
+
+.designation {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+}
+
+.work {
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+.designation h3 {
+    margin: 0;
+}
+
+
+.education-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid grey;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+.education {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.Degree {
+    display: flex;
+
+    align-items: flex-start;
+    gap: 1rem;
+    padding-top: 10px;
+
+    width: 900px;
+}
+
+
+.college-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.college h3,
+p {
+    margin: 0;
+}
+
+.college p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.degrees {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.skills-details {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid grey;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+.skills {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+.skills-name {
+    width: 900px;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-left: 480px;
+}
+
+.project-title {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.contact-section {
+    display: flex;
+    width: 90vw;
+    height: auto;
+    justify-content: space-evenly;
+
+}
+
+.toContact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+input {
+    margin: 10px 0px;
+    width: 200px;
+    height: 50px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 3rem;
+
+}
+
+textarea {
+    margin-top: 5px;
+    height: 110px;
+    width: 280px;
+}
+
+.btn {
+
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: #EBA102;
+    font-size: 18px;
+    font-weight: 900;
+    border: 0.5 px solid black;
+    margin-top: 30px;
+
+}
+
+
+/* .btn:hover{
+    background-color: white;
+} */
+
+#successful {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
