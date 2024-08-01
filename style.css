@@ -4,8 +4,8 @@ body {
   box-sizing: border-box;
   background-color: #f3f3f3;
   font-family: sans-serif;
-  background-image: url(./v331batch2-nunny-05b-leafbackground.jpg);
-  background-repeat: no-repeat;
+  /* background-image: url(./v331batch2-nunny-05b-leafbackground.jpg);
+  background-repeat: no-repeat; */
 }
 
 .main-page {
@@ -351,4 +351,22 @@ summary {
 }
 li {
   margin-bottom: 10px;
+}
+
+.CV {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+.CV a {
+  width: 150px;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
 }
