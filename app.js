@@ -59,8 +59,6 @@ for (i = 0; i < Contact1.length; i++) {
 
 
 
-
-
 //Submit Button
 
 const btn = document.querySelector(".btn");
