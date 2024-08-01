@@ -88,7 +88,7 @@ img {
 .about-profile p {
   width: 400px;
   text-wrap: wrap;
-  margin-bottom: 1px;
+  margin-bottom: 15px;
 }
 
 .profile-links {
@@ -249,17 +249,22 @@ p {
   gap: 1rem;
   margin-left: 480px;
 }
-
+.project-section{
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  
+}
 .project-title {
   font-weight: 900;
-  font-size: 20px;
-  margin-bottom: 70px;
+  font-size: 30px;
+  margin-bottom: 50px;
 }
 
 .project-details {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .contact-section {
@@ -301,17 +306,45 @@ textarea {
   background-color: #eba102;
   font-size: 18px;
   font-weight: 900;
-  border: 0.5 px solid black;
+  border: none;
   margin-top: 30px;
 }
-
-/* .btn:hover{
-    background-color: white;
-} */
 
 #successful {
   margin-top: 20px;
   padding: 10px;
   text-align: center;
   font-weight: bold;
+}
+.name{
+  font-size: 20px;
+  font-weight: 700;
+}
+summary{
+  font-size: 18px;
+  font-weight: 600;
+}
+#first-project{
+  margin-bottom: 50px;
+}
+#about-project{
+  padding-left: 30px;
+  line-height: 25px;
+  width: 800px;
+  text-wrap: wrap;
+  margin-bottom: 20px;
+}
+.project-info{
+  padding-left: 50px;
+  
+}
+details{
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+summary{
+  margin-bottom: 10px;
+}
+li{
+  margin-bottom: 10px;
 }

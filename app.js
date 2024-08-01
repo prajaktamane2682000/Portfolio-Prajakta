@@ -1,8 +1,17 @@
-//To catch the error in heading section because heading srction is not present in each page of an html document
+//To catch the error in heading section because heading section is not present in each page of an html document
 
 try{
 const heading = document.querySelector("#h1");
 heading.innerText = "Hello";
+
+const about= document.querySelector("h5");
+about.innerText ="A bit about me!!!";
+
+const summary = document.querySelector("p");
+summary.innerText ="Experienced System Administrator with a robust background in IT operations, network management, and technical support. Proficient in monitoring system performance, maintaining hardware assets, and ensuring compliance with security protocols. Skilled in HTML, CSS, JavaScript, and React.js, with a keen interest in front-end and full-stack web development. Eager to leverage strong problem-solving abilities and IT expertise to pivot into a dynamic role in web development and contribute to innovative projects."
+
+
+
 }catch(error){
     console.log(error.heading);
 }
@@ -65,7 +74,9 @@ const btn = document.querySelector(".btn");
 
 btn.addEventListener('mouseover', function(){
     btn.style.backgroundColor = 'white';
-    btn.style.fontSize= '20px';
+    btn.style.fontSize= '22px';
+    btn.style.border = '1px solid black';
+    btn.style.cursor ='pointer';
 })
 
 btn.addEventListener('mouseout', function(){
@@ -84,10 +95,8 @@ const successful = document.getElementById('successful');
 contactForm.addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent default form submission
 
-    // Collect form data
     const formData = new FormData(contactForm);
-    
-    // Simulate form submission (replace with actual backend integration)
+
     setTimeout(function() {
         // Display success message
         successful.textContent = 'Message sent successfully!';
@@ -95,7 +104,7 @@ contactForm.addEventListener('submit', function(event) {
         setTimeout(function() {
             successful.textContent = '';
         }, 3000); // Clear message after 3 seconds
-    }, 1000); // Simulating delay with setTimeout
+    }, 1000); //
 });
 
 
