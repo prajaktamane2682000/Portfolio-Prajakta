@@ -30,8 +30,8 @@ let resume1 = document.getElementsByClassName("resume1");
 
 for (i = 0; i < resume1.length; i++) {
 
-    resume1[i].addEventListener('click', function () {
-
+    resume1[i].addEventListener('click', function (e) {
+        e.preventDefault();
         window.location.href = "http://127.0.0.1:5500/resume.html";
 
     }
@@ -42,7 +42,8 @@ let project1 = document.getElementsByClassName("project1");
 
 for (i = 0; i < project1.length; i++) {
 
-    project1[i].addEventListener('click', function () {
+    project1[i].addEventListener('click', function (e) {
+        e.preventDefault();
 
         window.location.href = "http://127.0.0.1:5500/project.html";
         
@@ -55,8 +56,8 @@ let Contact1 = document.getElementsByClassName("contact1");
 
 for (i = 0; i < Contact1.length; i++) {
 
-    Contact1[i].addEventListener('click', function () {
-
+    Contact1[i].addEventListener('click', function (e) {
+        e.preventDefault();
         window.location.href= "http://127.0.0.1:5500/contact.html";
 
     }
