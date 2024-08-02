@@ -74,6 +74,7 @@ const btn = document.querySelector(".btn");
 
 btn.addEventListener('mouseover', function(){
     btn.style.backgroundColor = 'white';
+    btn.style.color= 'black';
     btn.style.fontSize= '22px';
     btn.style.border = '1px solid black';
     btn.style.cursor ='pointer';

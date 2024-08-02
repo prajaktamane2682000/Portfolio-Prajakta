@@ -1,0 +1,420 @@
+/* Reset some default styles */
+body,
+h1,
+h5,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: linear-gradient(135deg, #f0f4f8, #e0eaf3);
+}
+
+/* Main container styling */
+.main-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Purple to Blue */
+  color: #fff;
+  padding: 15px 0;
+  border-radius: 8px 8px 0 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.me {
+  font-size: 1.5em;
+}
+.me a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.me span {
+  font-size: 16px;
+}
+
+.nav-bar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 1em;
+}
+
+.nav-bar a:hover {
+  color: #ffeb3b; /* Yellow */
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+
+/* Main section styling */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.profile-photo {
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  background-color: white;
+  border: 4px solid #6a11cb; /* Purple */
+}
+
+.about-profile h1 {
+  font-size: 2.5em;
+  color: #6a11cb; /* Purple */
+  margin-bottom: 10px;
+}
+
+.about-profile h5 {
+  font-size: 1.5em;
+  color: #ff5722; /* Coral */
+  margin-bottom: 10px;
+}
+
+.about-profile p {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.profile-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 10px 20px;
+  border: 2px solid #6a11cb; /* Purple */
+  border-radius: 5px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Purple to Blue */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.profile-links a:hover {
+  background-color: #4a0072; /* Darker Purple */
+  color: #fff;
+}
+
+/* Footer styling */
+footer {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #4a0072, #1b1b2f); /* Darker Purple to Darker Blue */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+}
+
+footer div {
+  margin-bottom: 10px;
+}
+
+footer h5 {
+  font-size: 1.2em;
+  text-align: start;
+  margin-bottom: 5px;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+.follow a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.follow a:hover {
+  color: #ffeb3b; /* Yellow */
+}
+
+
+
+/* resume page */
+
+.CV {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.CV h1 {
+  color: #6a11cb; /* Purple */
+  margin-bottom: 15px;
+}
+
+.CV a {
+  color: #6a11cb; /* Purple */
+  text-decoration: none;
+  font-size: 1.1em;
+  border: 2px solid #6a11cb; /* Purple */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.CV a:hover {
+  background-color: #4a0072; /* Darker Purple */
+  color: #fff;
+}
+
+/* Work experience styling */
+.my-work {
+  margin-top: 20px;
+}
+
+.work {
+  font-size: 1.5em;
+  color: #6a11cb; /* Purple */
+  margin-bottom: 10px;
+}
+
+.designation-details {
+  margin-top: 10px;
+}
+
+.years {
+  font-weight: bold;
+  color: #555;
+}
+
+.designation h3 {
+  color: #ff5722; /* Coral */
+  margin-bottom: 10px;
+}
+
+.designation ul {
+  list-style: disc;
+  margin-left: 20px;
+  color: #666;
+}
+
+/* Education section styling */
+.education-details {
+  margin-top: 30px;
+}
+
+.education {
+  font-size: 1.5em;
+  color: #6a11cb; /* Purple */
+  margin-bottom: 10px;
+}
+
+.degrees {
+  margin-top: 10px;
+}
+
+.Degree {
+  margin-bottom: 15px;
+}
+
+.college h3 {
+  color: #ff5722; /* Coral */
+}
+
+.college p {
+  color: #666;
+}
+
+/* Skills section styling */
+.skills-details {
+  margin-top: 30px;
+}
+
+.skills {
+  font-size: 1.5em;
+  color: #6a11cb; /* Purple */
+  margin-bottom: 10px;
+}
+
+.skills-name ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-name li {
+  background-color: #6a11cb; /* Purple */
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+  background: linear-gradient(135deg, #4a0072, #1b1b2f); /* Darker Purple to Darker Blue */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+  margin-top: 30px;
+}
+
+footer div {
+  margin-bottom: 10px;
+}
+
+footer h5 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+.follow a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.follow a:hover {
+  color: #ffeb3b; /* Yellow */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    
+  .nav {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .CV a {
+    display: block;
+    margin-top: 10px;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  footer div h5 {
+    font-size: 15px;
+  }
+
+  footer div p {
+    font-size: 12px;
+  }
+}
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+    .nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+      .nav-bar {
+        display: flex;
+        flex-direction: column;
+        padding-right: 25px;
+        align-items: center;
+      }
+    .me{
+        display: flex;
+        padding-left: 25px;
+        flex-direction: column;
+        
+      }
+      .me a{
+        font-size: 0.8em;
+      }
+
+      .me span{
+        font-size: 0.6em;
+      }
+    .nav {
+      padding: 0 10px;
+    }
+  
+    .nav-bar {
+        font-size: 0.9em;
+      align-items: flex-start;
+    }
+  
+    .CV h1 {
+      font-size: 1.5em;
+    }
+  
+    .CV a {
+      font-size: 0.9em;
+    }
+  
+    .work,
+    .education,
+    .skills {
+      font-size: 1.5em;
+    }
+  
+    .designation-details,
+    .degrees,
+    .skills-name {
+      margin-left: 5px;
+    }
+  
+    .designation h3,
+    .college h3 {
+      font-size: 1em;
+    }
+  
+    footer h5 {
+      font-size: 1em;
+    }
+  
+    footer p {
+      font-size: 0.8em;
+    }
+  
+    footer a {
+      font-size: 0.8em;
+    }
+  }
