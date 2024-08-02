@@ -44,7 +44,6 @@ for (i = 0; i < project1.length; i++) {
 
     project1[i].addEventListener('click', function (e) {
         e.preventDefault();
-
         window.location.href = "http://127.0.0.1:5500/project.html";
         
     }
